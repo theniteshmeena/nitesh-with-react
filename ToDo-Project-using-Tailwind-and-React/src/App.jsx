@@ -2,10 +2,10 @@ import { useEffect, useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "./assets/vite.svg";
 import heroImg from "./assets/hero.png";
-import "./App.css";
 import { TodoProvider } from "./contexts";
 import TodoForm from "./components/TodoForm";
 import TodoItem from "./components/TodoItem";
+import "./App.css";
 
 function App() {
   const [todos, setTodos] = useState([]);
